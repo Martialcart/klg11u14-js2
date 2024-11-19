@@ -61,10 +61,8 @@ footer {
 @keyframes flyIn {
   from {
     transform: scale(0%);
-    transform: rotate3d(360deg, 360deg, 360deg);
   }
   to {
     transform: scale(100%);
-    transform: rotate3d(0deg, 0deg, 0deg);
   }
 }
