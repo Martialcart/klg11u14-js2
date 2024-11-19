@@ -42,3 +42,7 @@ cardContainer.appendChild(cardHeading);
 console.log(cardContainer);
 
 cardHeading.textContent = "Hei på deg";
+
+// while (true) {
+//     cardHeading.classList.add("donut");
+// }

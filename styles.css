@@ -58,6 +58,12 @@ footer {
 
 }
 
+.donut {
+  height: 100px;
+  background-color: pink;
+
+}
+
 @keyframes flyIn {
   from {
     transform: scale(0%);
@@ -65,4 +71,5 @@ footer {
   to {
     transform: scale(100%);
   }
+
 }
