@@ -22,6 +22,12 @@ header {
   border-radius: 50%;
 }
 
+.redContainer {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
 ul {
   display: flex;
   justify-content: end;
@@ -40,4 +46,25 @@ section {
 footer {
   display: flex;
   justify-content: center;
+}
+
+.flyToFront {
+  animation-name: flyIn;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-range-start: 0s 2s;
+  animation-range-end: 4s 6s;
+  /* animation-range: 0s 20s; */
+
+}
+
+@keyframes flyIn {
+  from {
+    transform: scale(0%);
+    transform: rotate3d(360deg, 360deg, 360deg);
+  }
+  to {
+    transform: scale(100%);
+    transform: rotate3d(0deg, 0deg, 0deg);
+  }
 }
